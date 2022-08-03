@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:checked="true"
+        android:icon="@drawable/ic_baseline_library_books_24"
+        />
+    <item
+        android:id="@+id/nav_favourite"
+        android:title="Favourites"
+        android:icon="@drawable/ic_baseline_favorite_border_24"
+        />
+    <item
+        android:id="@+id/nav_share"
+        android:title="Share"
+        android:icon="@drawable/ic_baseline_share_24"
+        />
+    <item
+        android:id="@+id/nav_setting"
+        android:title="Settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        />
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_sign_out"
+            android:title="Sign Out"
+            android:icon="@drawable/ic_baseline_logout_24"/>
+
+        </menu>
+    </item>
+    </group>
+</menu>
